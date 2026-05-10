@@ -1,0 +1,75 @@
+body {
+    font-size: 16px;
+    color: #303030;
+}
+a {
+    text-decoration: underline;
+    color: #951C49;
+}
+a:hover, a:focus {
+    color: #580524;
+}
+a:focus{
+    outline: 1px dotted #580524;
+    outline-offset: 2px;
+}
+
+/** HEADER **/
+#header-nav {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 -1px 5px 0 rgba(18, 18, 18, 0.5);
+    background-color: #E6982C;
+}
+
+.navbar-brand{
+    height: auto;
+}
+.navbar-brand a{
+    text-decoration: none;
+    color: #303030;
+}
+.navbar-brand h1{
+    margin: 0;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -52px;
+    margin-bottom: 0;
+    border: 1px solid #303030;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #303030;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/* END HEADER */
+
+
+/* MAIN PAGE */
+h2{
+    margin-bottom: 20px;
+}
+.section-inner {
+  padding: 15px;
+  background-color: #E6982C;
+}
+.section-inner h3:first-child, .section-inner p:first-child {
+  margin-top: 0;
+}
+.section-inner h3:last-child, .section-inner p:last-child {
+  margin-bottom: 0;
+}
